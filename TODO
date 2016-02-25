@@ -1,21 +1,37 @@
-py/NLP/TODO
+py/nlp/TODO
 
-2016-02-24
+2016-02-25
+    * {README,index}.md need to be committed to github
+
+2016-02-25, edited from -24
     * given ASCII or Unicode text, need to be able to extract 
-        successively SENTENCES and from them WORDFORMS which are
-        a superset of LEMMAS which include WORDs and MULTIWORDs
+        Sentences and from them Tokens which include Lexemes 
 
-    * MULTIWORDs include PlaceNames and ProperNames 
+    * a Lemma is the 'dictionary name' of a Word
 
-    * MultiWords are recognized sequences of words such as
-        - "[San Franciso ]Bay Area" aka "SF Bay Area" and
-        - "Joe Biden"
-            * where the canonical form may have upper case characters
-        - "data center" aka "datacenter"
+    * Lexemes are inflected/conjugated forms of Lemmas, usually or 
+        always including the Lemma itself
+        - so 'run' is a Lemma, a Verb, and its Lexemes include 'run', 
+            'runs', 'running', and 'ran'
+
+    * MultiWords are recognized sequences of words
+
+    * MultiWords include PlaceNames, PersonNames, and EventNames
+        - MultiWords (XXX terminology problem! XXX)
+            * "data center" aka "datacenter"
             * where the canonical form is all lower case
+        - PlaceNames
+            * "[San Franciso ]Bay Area" aka "SF Bay Area" 
+        - PersonNames 
+            * "Joe Biden"
+            * where the canonical form may have upper case characters
+        - EventNames
+            * '9/11'
+            * 'Christmas Day', 'Independence Day'
+                - where the canonical form includes upper case characters
 
-    * LEMMAs include for example "car" and "cars" as well as "car's",
-        all seen as variants of "car"
+    * Lexemes include for example "car" and "cars" as well as "car's",
+        all seen as variants of the Lemma "car"
         - and similarly "child" and "children"
         - and perhaps "run", "ran", "running"
 
