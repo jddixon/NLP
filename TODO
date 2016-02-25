@@ -1,2 +1,29 @@
 py/NLP/TODO
 
+2016-02-24
+    * given ASCII or Unicode text, need to be able to extract 
+        successively SENTENCES and from them WORDFORMS which are
+        a superset of LEMMAS which include WORDs and MULTIWORDs
+
+    * MULTIWORDs include PlaceNames and ProperNames 
+
+    * MultiWords are recognized sequences of words such as
+        - "[San Franciso ]Bay Area" aka "SF Bay Area" and
+        - "Joe Biden"
+            * where the canonical form may have upper case characters
+        - "data center" aka "datacenter"
+            * where the canonical form is all lower case
+
+    * LEMMAs include for example "car" and "cars" as well as "car's",
+        all seen as variants of "car"
+        - and similarly "child" and "children"
+        - and perhaps "run", "ran", "running"
+
+    * So "San Francisco's ambience" should be recognizable
+        - as should "you can't have two San Franciscos"
+
+    * emphasis is on the ability to tokenize technical or semi-technical
+        English
+
+    * OK to wrap Natural Language Toolkit (nltk) functions at least
+        in the short run
