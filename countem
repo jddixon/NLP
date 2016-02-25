@@ -1,4 +1,4 @@
-cd /home/jdd/dev/py/NLP
+cd /home/jdd/dev/py/nlp
 
 rm -rf build/* tmp/*
 
