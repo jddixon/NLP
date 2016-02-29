@@ -1,10 +1,14 @@
 py/nlp/CHANGES
 
+v0.0.3
+    2016-02-29
+        * and sentencize and test                                   SLOC  123
 v0.0.2
     2016-02-25
         * renamed project, add {README,index}.md                    SLOC   46
 v0.0.1
     2016-02-25
-        * initial commit                                            SLOC    46
+        * initial commit                                            SLOC   46
+
 
 
