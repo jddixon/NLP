@@ -4,11 +4,11 @@
 from nltk.tokenize import sent_tokenize
 
 __all__ = ['__version__', '__version_date__',
-            'sentencize',
-          ]
+           'sentencize',
+           ]
 
-__version__      = '0.0.3'
-__version_date__ = '2016-02-29'
+__version__      = '0.0.4'
+__version_date__ = '2016-03-24'
 
 
 def sentencize(txt):
