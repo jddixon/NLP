@@ -2,22 +2,28 @@
 
 # testSentencizer.py
 
-import base64, hashlib, os, time, unittest
+import base64
+import hashlib
+import os
+import time
+import unittest
 
 from nlp import *
+
 
 class TestMultiLingual (unittest.TestCase):
 
     def setUp(self):
         pass
+
     def tearDown(self):
         pass
 
     # utility functions #############################################
-    
+
     # actual unit tests #############################################
 
-    def testA (self):
+    def testA(self):
 
         # The unicode is 'ni hao'.
         SAMPLE_A = "This is a simple sentence.  "       + \
@@ -28,14 +34,14 @@ class TestMultiLingual (unittest.TestCase):
         ss = sentencize(SAMPLE_A)
 
         self.assertEqual(len(ss), 9)
-        
+
         # Note two spaces at end have been dropped.
         self.assertEqual(ss[0], "This is a simple sentence.")
-        self.assertEqual(ss[1], 
-            "Followed by Fred's title, Ph.D. a bit of Chinese ... U+4F60 U+597D.") 
+        self.assertEqual(ss[1],
+                         "Followed by Fred's title, Ph.D. a bit of Chinese ... U+4F60 U+597D.")
         self.assertEqual(ss[2], "and then some Russian!")
         self.assertEqual(ss[3], "ZDRAST.")
-        
+
         self.assertEqual(ss[4], '!!!')
         self.assertEqual(ss[5], '??!')
 
@@ -44,9 +50,9 @@ class TestMultiLingual (unittest.TestCase):
         self.assertEqual(ss[7], '** ??!?')
         self.assertEqual(ss[8], '? ')           # trailing space retained
 
-    def testB (self):
-        """ 
-        NOT THE DESIRED BEHAVIOR: ? 
+    def testB(self):
+        """
+        NOT THE DESIRED BEHAVIOR: ?
         * Simple sequences of punctuation marks are split.
         * Leading and trailing spaces are sometimes retained, sometimes not.
         """
@@ -78,7 +84,7 @@ class TestMultiLingual (unittest.TestCase):
         ss = sentencize(SAMPLE_NP)
         self.assertEqual(len(ss), 2)
         self.assertEqual(ss[1], 'Yep')
-    
+
     def testEllipsis(self):
         """ ERRATIC HANDLING OF ELLIPSIS """
 
@@ -88,7 +94,7 @@ class TestMultiLingual (unittest.TestCase):
         self.assertEqual(ss[0], 'Oh ...')
         self.assertEqual(ss[1], 'I dunno.')
         self.assertEqual(ss[2], 'Maybe tomorrow ...  Maybe not.')
-   
+
     # certainly need much more extensive testing of titles.
     def testTitles(self):
 

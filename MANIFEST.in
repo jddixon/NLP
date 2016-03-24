@@ -2,7 +2,7 @@
 
 include netDistrib.conf
 include CHANGES MANIFEST.in README TODO
-include countem installit
+include auto8it countem installit
 recursive-include nlp *.py test.all
 recursive-include ghpDoc *
 global-exclude junk* .*swp 
