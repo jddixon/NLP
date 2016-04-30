@@ -1,9 +1,7 @@
-cd /home/jdd/dev/py/nlp
+#!/usr/bin/env bash
 
-rm -rf build/* tmp/*
+cd $DEV_BASE/py/nlp
 
-pySloc -v $@ \
-    text:.gitignore text:MANIFEST.in \
-    bash:auto8it bash:countem bash:installit bash:test.all       \
+rm -rf build/* tmp/* 
 
-
+pySloc  -X dist -v $@
