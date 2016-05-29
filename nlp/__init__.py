@@ -7,8 +7,8 @@ __all__ = ['__version__', '__version_date__',
            'sentencize',
            ]
 
-__version__      = '0.0.5'
-__version_date__ = '2016-04-30'
+__version__ = '0.0.6'
+__version_date__ = '2016-05-29'
 
 
 def sentencize(txt):
@@ -17,4 +17,3 @@ def sentencize(txt):
     out of it.
     """
     return sent_tokenize(txt)
-
