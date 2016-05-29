@@ -1,6 +1,6 @@
-# buildList/.dvcz/projCfg.local.local
+# nlp.dvcz/projCfg.local
 
-dir:clr:tmp
+dir:pkg:nlp
 
 code:std:.dvcz/projCfg.local
 code:std:.dvcz/projCfg

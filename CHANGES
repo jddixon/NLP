@@ -1,5 +1,8 @@
 py/nlp/CHANGES
 
+v0.0.6
+    2016-05-29
+        * add bkp2U and other bash scripts; update .dvcz etc        SLOC  206
 v0.0.5
     2016-04-30
         * add .dvcz and projCfg{,.local}                            SLOC  164
@@ -15,6 +18,7 @@ v0.0.2
 v0.0.1
     2016-02-25
         * initial commit                                            SLOC   46
+
 
 
 
