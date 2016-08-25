@@ -1,5 +1,8 @@
 py/nlp/CHANGES
 
+v0.0.8
+    2016-08-25
+        * fix setup.py, license                                     SLOC  747
 v0.0.7
     2016-06-25
         * add ghpDoc/{css,img}/                                     SLOC  706
@@ -21,6 +24,8 @@ v0.0.2
 v0.0.1
     2016-02-25
         * initial commit                                            SLOC   46
+
+
 
 
 

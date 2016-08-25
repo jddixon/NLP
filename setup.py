@@ -17,9 +17,14 @@ setup(name='nlp',
       packages=['nlp'],
       # following could be in scripts/ subdir
       scripts=[],
-      # MISSING description
+      description='some natural language processing (NLP) tools',
+      url='https://jddixon.github.io/nlp',
       classifiers=[
+          'Development Status :: 2 - Pre-Alpha',
+          'Intended Audience :: Developers',
           'License :: OSI Approved :: MIT License',
-          'Programming Language :: Python :: 3',
+          'Natural Language :: English',
+          'Programming Language :: Python 3',
+          'Topic :: Software Development :: Libraries :: Python Modules',
       ],
       )

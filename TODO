@@ -1,5 +1,11 @@
 py/nlp/TODO
 
+2016-07-15
+    * need a utility function which will remove files in an 
+        NLHTree from a uDir
+            - need to be able to both discover the uDir's organization
+                and to specify it (FLAT, 256x256, etc) 
+
 2016-02-25
     * {README,index}.md need to be committed to github                  * DONE
 

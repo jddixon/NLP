@@ -7,24 +7,26 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-nlp v0.0.7
-2016-06-25 22:05:52
-# START CONTENT #
+nlp v0.0.8
+2016-08-25 18:33:17
+# BEGIN CONTENT #
 nlp
  .dvcz
-  builds 0c5bf21f28922901fd677fe4c771d3bece9f31b1
-  lastBuildList fb2cdac1a79d527d8b26533651169d8f5eb8acac
-  projCfg b0d0fe1be96183ce3a1d99a6e269ae78efc75bf5
-  projCfg.local aaa67937e789101d0c947960c5d3d4ab3c99fa89
-  version 1cd8d0f1bfdedd0e013933c0ec6dc996c0c610ab
+  builds 346385a43de0f40e57ab169d71f740527a59b0ee
+  copyright 6794cf665112656267cf59917bdfc150e4c4b97c
+  lastBuildList da4f971299ed5f1db93771dfb5ca0134e3b26099
+  license 5977a55c75bb4612004451a56b0b4c22d9d3311d
+  projCfg 11510e30d1de42c3049a7d8072072ad0afee0a99
+  projCfg.local 67afb531163d4ddc9f0b836e41398fda582ef083
+  version 4907def91fbc32982deba6d95fc4eb8a62537c9f
  .gitignore 5f1a04317952b671c5828218c6efe88c2594f8fb
- CHANGES b4f8614fb4027fc4b88a5850986e1acd6c5854a9
- LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
+ CHANGES 426f4564a84b6e331915d21fba9b93ee4856c085
+ LICENSE-MIT.md e82e359e6de3e83b487ab0eda0679762159a3d9d
  MANIFEST.in 316a99af3fac9677bb1fee81f3d3b101fa52da76
  README.md 2adebfc67777991e4f67eb5ac669f0196c2b91f0
- TODO fb75a0307bd31c27f2fd0d9b06e7073fedf7e51b
+ TODO e5feb2b745e0844ce2a25592c7dd09942b6fafdf
  bkp2U e903d7a10e416fe77a848c3faeedeaa31e738d21
- countem 938e19ee63c32b0430bd1bf083125ce29fd64432
+ countem 1c082bd8ebbb24f635edd4de7d8e66920c059ef5
  dist
   NLP-0.0.1.tar.gz b4625cab9d244713a896bcace2fe0ec93b808fe2
   nlp-0.0.2.tar.gz a74e90887bfb6bf94b4ff216d19e2b601c37e5c9
@@ -33,6 +35,7 @@ nlp
   nlp-0.0.5.tar.gz 91d2499b6902c6ab29acad93057723c7a727c1a3
   nlp-0.0.6.tar.gz b3debe58df98293dfd0d0891a67a11dc35d2595a
   nlp-0.0.7.tar.gz 569fd4e6e12d9fec616df37cf83d648e38f5c726
+  nlp-0.0.8.tar.gz 00ce6ca3cd3f743043c2943064e534a67ce4a18a
  ghpDoc
   css
    LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
@@ -50,11 +53,11 @@ nlp
   index.md 805a0a174f974bdd904a7117b76cb077348a743c
  installit a1dd12e6f31f54e18822b9f44552defbb5fc9d59
  nlp
-  __init__.py 93215c4a64cd5c83cd4576903705645f461031fc
- setup.py 2deb118c72522f5ab733aa4882fdc0bb7ae43a64
+  __init__.py 1d60b55a4b4479dd6e17d681a1f62bfa8321ac91
+ setup.py bdffc25ae322ab850eb2c07cf5948e8c7f483cee
  styleit 18a9b642ad329cf91ebc69a0aa444e5553777ccf
  test.all 9ce9675c6af008695030dcbc6259eaa013eb3631
  testSentencizer.py 2cd41e29dfe976f6c45f2c169548b841e4def4ce
 # END CONTENT #
 
-mUcMUGuGImJof3k7rXVQIk5brvdBVlbUik/rigI3cgTtFecHRp4Au1ngZ9QgsHufXPTtTFXqSsukPxiXi/gE2OAcFYvU2NLf/PWkBo2rOPU/h0N8NLvkGGIGbql0wN1pAJpS8JMsEfLlwWEcwIxhLR3utSCIALBdcKWgElMIPUM2X0oiyo7b88Lgd5l+WygUjnY0X0B/LWSKI8trKSVm8063tdeOEQ/Q7flckeAIXOr/AFDZvkZMfExjDb1+bAqRixybQlvUzbmvbQ86AKVTpJ8cZtTHeaoDS9d02bo97TGD0IEVH2s5N847N8putWd4upMkrwY/Jzrg8fe8gn5ufA==
+TiqBldU/vxOERL84+bGRrjDOpj3cE5OlORdnx5CLb7HipEVzL7ah3nAh1JDAknv6/CqCdc0uCXMcdlSl2vwJanX6ZKd0ySn4ABeFl3RfGOZwoSgs+d73ip7jB+1xyewQMNHfh0oaTAIQJpPnNqOzgmtsgXDpKqftn18uqEGVI2ZiKbbwt8x4Nit0e28bfUgiMBv2IEkkbk18HqEXh6CUcMJNIZuDWqtVQg4GKZfvNkSyMpEgy6neZL5mZdN4BMolwwD7BOh3xmOyhy1DLFXf1mpdohsgYZYAwHdONFKcenbZKzWVT4Eyt74cUaQdwcr35EOrJb8knA0u5kyfvj/3Kw==
