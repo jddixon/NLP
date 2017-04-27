@@ -31,9 +31,9 @@ class TestMultiLingual(unittest.TestCase):
         """
 
         # The unicode is 'ni hao'.
-        sample_a = "This is a simple sentence.  "       + \
-                   "  Followed by Fred's title, Ph.D."  + \
-                   " a bit of Chinese ... U+4F60 U+597D. "    + \
+        sample_a = "This is a simple sentence.  " + \
+                   "  Followed by Fred's title, Ph.D." + \
+                   " a bit of Chinese ... U+4F60 U+597D. " + \
                    "and then some Russian! ZDRAST.  !!!  ??! **!** ??!?? "
 
         sentences = sentencize(sample_a)
@@ -126,6 +126,7 @@ class TestMultiLingual(unittest.TestCase):
         self.assertEqual(len(sentences), 2)        # WOULD PREFER 1
         self.assertEqual(sentences[0], 'A PhD.')
         self.assertEqual(sentences[1], 'and a Ph.D. are much the same')
+
 
 if __name__ == '__main__':
     unittest.main()
