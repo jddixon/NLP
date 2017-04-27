@@ -1,5 +1,8 @@
 py/nlp/TODO
 
+2017-04-27
+    * installation of nltk needs to be completed
+
 2016-07-15
     * need a utility function which will remove files in an 
         NLHTree from a uDir
