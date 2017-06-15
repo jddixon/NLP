@@ -1,1 +1,1 @@
-pylint setup.py test*.py nlp 
+pylint setup.py tests/test*.py src/nlp 

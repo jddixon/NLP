@@ -8,8 +8,8 @@ __all__ = ['__version__', '__version_date__',
            'sentencize',
            ]
 
-__version__ = '0.0.10'
-__version_date__ = '2017-04-27'
+__version__ = '0.0.11'
+__version_date__ = '2017-06-15'
 
 
 def sentencize(txt):

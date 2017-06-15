@@ -1,5 +1,8 @@
 py/nlp/CHANGES
 
+v0.0.11
+    2017-06-15
+        * restructure for pytest                                    sloc  868
 v0.0.10
     2017-04-27
         * drop dist/* from repo; plus minor edits                   SLOC  947
@@ -30,6 +33,7 @@ v0.0.2
 v0.0.1
     2016-02-25
         * initial commit                                            SLOC   46
+
 
 
 
