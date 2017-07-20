@@ -54,8 +54,8 @@ class TestMultiLingual(unittest.TestCase):
         # punctuation marks split
         self.assertEqual(sentences[6], '**!')
         self.assertEqual(sentences[7], '** ??!?')
-        # trailing space retained
-        self.assertEqual(sentences[8], '? ')
+        # trailing space NOT retained
+        self.assertEqual(sentences[8], '?')
 
     def test_b(self):
         """
@@ -70,7 +70,7 @@ class TestMultiLingual(unittest.TestCase):
         self.assertEqual(len(sentences), 2)
         # Note leading and then trailing space.
         self.assertEqual(sentences[0], ' !!')
-        self.assertEqual(sentences[1], '! ')
+        self.assertEqual(sentences[1], '!')
 
     def test_closed_paren(self):
         """ Test parenthesis handling. """
