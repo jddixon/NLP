@@ -12,6 +12,7 @@
 <h1 class="libTop">nlp</h1>
 
 <h2>Initial Goals</h2>
+<<<<<<< HEAD
 <p>Given ASCII or Unicode text, need to be able to extract successively
 Sentences and from them WordForms which are a superset of Lexemes which
 include Words and MultiWords</p>
@@ -51,6 +52,70 @@ form of the PlaceName as should "you can't have two San Franciscos".</p>
 short run.</p>
 <h2>Project Status</h2>
 <p>Skeletal.</p>
+=======
+
+<p>Given ASCII or Unicode text, need to be able to extract successively
+Sentences and from them WordForms which are a superset of Lexemes which
+include Words and MultiWords</p>
+
+<h2>MultiWords</h2>
+
+<p>MultiWords include PlaceNames and ProperNames</p>
+
+<p>MultiWords are recognized sequences of words such as</p>
+
+<ul>
+<li>&ldquo;[San Franciso ]Bay Area&rdquo; aka &ldquo;SF Bay Area&rdquo; and</li>
+<li>&ldquo;Joe Biden&rdquo;</li>
+</ul>
+
+<p>where the canonical form may have upper case characters and</p>
+
+<ul>
+<li>&ldquo;data center&rdquo; aka &ldquo;datacenter&rdquo;</li>
+</ul>
+
+<p>where the canonical form consists of lower case letters (and possibly
+digits, dashes, underscores, etc).</p>
+
+<h2>Lemmas and Lexemes</h2>
+
+<p>Lexemes include for example</p>
+
+<ul>
+<li>&ldquo;car&rdquo; and</li>
+<li>&ldquo;cars&rdquo; as well as</li>
+<li>&ldquo;car&rsquo;s&rdquo;,</li>
+</ul>
+
+<p>all seen as a Lemma &ldquo;car&rdquo; plus some wiggly bits.</p>
+
+<p>Similarly</p>
+
+<ul>
+<li>&ldquo;child&rdquo;, &ldquo;child&rsquo;s&rdquo; &ldquo;children&rdquo; &ldquo;children&rsquo;s&rdquo;</li>
+<li>&ldquo;run&rdquo;, &ldquo;ran&rdquo;, &ldquo;running&rdquo;</li>
+</ul>
+
+<p>Where the first word is the Lemma and it and the other words are Lexemes.</p>
+
+<p>So &ldquo;San Francisco&rsquo;s ambience&rdquo; should be seeen as containing an inflected
+form of the PlaceName as should &ldquo;you can&rsquo;t have two San Franciscos&rdquo;.</p>
+
+<h2>Context</h2>
+
+<p>Emphasis is on the ability to tokenize technical or semi-technical English</p>
+
+<h2>Implementation</h2>
+
+<p>It&rsquo;s OK to wrap Natural Language Toolkit (nltk) functions at least in the
+short run.</p>
+
+<h2>Project Status</h2>
+
+<p>Skeletal.</p>
+
+>>>>>>> ea1911df0cfc9ace573e3bbbdf186f9136c359f3
 <h2>Licensing</h2>
 <p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The material on this github.io website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
 <p>Project software is licensed under an MIT license.
