@@ -6,7 +6,7 @@ then
   
   rm -rf build/* 
   
-  pySloc -L py  -X cover -X htmlcov -X dist -v $@ nlp tests/test_sentencizer.py setup.py
+  pySloc -L py  -X cover -X htmlcov -X dist -v $@ nlp tox.ini requirements.txt test_requirements.txt tests/test_sentencizer.py setup.py
 else
   echo "DEV_BASE is not defined"
 fi

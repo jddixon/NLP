@@ -1,5 +1,8 @@
 py/nlp/CHANGES
 
+v0.0.13
+    2017-08-20
+        * add tox.ini, *requirements.txt; minor edits cfg files     SLOC  929
 v0.0.12
     2017-07-20
         * rewrite setup.py; fixes for NLTK 2.2.4; edit cfg files    SLOC  893
@@ -36,6 +39,7 @@ v0.0.2
 v0.0.1
     2016-02-25
         * initial commit                                            SLOC   46
+
 
 
 
