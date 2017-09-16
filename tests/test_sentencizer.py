@@ -42,8 +42,10 @@ class TestMultiLingual(unittest.TestCase):
 
         # Note two spaces at end have been dropped.
         self.assertEqual(sentences[0], "This is a simple sentence.")
-        self.assertEqual(sentences[1],
-                         "Followed by Fred's title, Ph.D. a bit of Chinese ... U+4F60 U+597D.")
+        self.assertEqual(
+            sentences[1],
+            "Followed by Fred's title, Ph.D. " +
+            "a bit of Chinese ... U+4F60 U+597D.")
         self.assertEqual(sentences[2], "and then some Russian!")
         self.assertEqual(sentences[3], "ZDRAST.")
 

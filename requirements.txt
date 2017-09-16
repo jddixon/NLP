@@ -1,2 +1,4 @@
 # nlp/requirements.txt
+nltk
+setuptools
 
