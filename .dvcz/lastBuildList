@@ -7,24 +7,24 @@ Giaje1YAJPNVBt3dlOA5lhBp4GpSYBskJ9UR2Zyt3lgAGK3dEwxYETLMh9VWEV8i
 k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
-nlp v0.0.13
-2017-08-20 23:59:48
+nlp v0.0.14
+2017-09-16 22:08:10
 # BEGIN CONTENT #
 nlp
  .cache
   v
    cache
-    lastfailed 7a91aa8d2860a93b0437140e1abe80e183593ac9
+    lastfailed bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f
  .dvcz
-  builds 4232de1a3d4957cbdb3674c8582c0b4d3741e7fd
+  builds bb20826d21b69eeff3f8c0f80793b6cf9acf4264
   copyright ab39c54239118a4b086b878b7878100f769dd197
-  lastBuildList ead68487b77119681a9ec5181d9d84e5999cf5e2
+  lastBuildList 735c56cd74b0510ca47e7cf55ffc13a5d9eb4f30
   license 5977a55c75bb4612004451a56b0b4c22d9d3311d
   projCfg 120debf26f3dea556dbe7a893abaef8bf996b5f6
   projCfg.local 67afb531163d4ddc9f0b836e41398fda582ef083
-  version d38ef057a7f65b79a46e2bf4a7e7d75a147d771b
- .gitignore fa249afe19714b701dd828a80bd855e2ce1b05e4
- CHANGES f4b7c20107f77204d2b456f8f880c0f1fc3aeb22
+  version fd1fab24db74c89b14b28c351fa3b6ebc84c3788
+ .gitignore c8129c7133b7a7755cefd3dfc62a9af7bc306aa0
+ CHANGES 761795e306e338efe6d7ba88e390bf474035a145
  LICENSE-MIT.md f9785a1042444732de8b63db3a55ea01b4ccd7bf
  MANIFEST.in 7ecdc5eedf233385e0f99ba4c6e4a42212adb46f
  README.md 2adebfc67777991e4f67eb5ac669f0196c2b91f0
@@ -50,17 +50,17 @@ nlp
   index.md 805a0a174f974bdd904a7117b76cb077348a743c
  installit a1dd12e6f31f54e18822b9f44552defbb5fc9d59
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
- requirements.txt 78aacbbb2c09779e32b34abbe54d1aff72e7d1d9
+ requirements.txt a7bc5338e6c3d604c76c654dcc251a7d0949edd0
  setup.py 32b2022af15f6ad6dc178a770bd84f544cc6d8e6
  src
   nlp
-   __init__.py ce89a1d62b961dc250f417140924ef92f0714012
+   __init__.py b95c3b91ab3ea55f227c78bc9a7d56c4e4a67d9b
  styleit ecb63db4f34883c0381515514aa9afff9efac666
  test.all f07731fd5f3c46002b64f55e44a0bec249f2c7be
  test_requirements.txt 28f208d4ac54b1193316b69342f50fbc39255b13
  tests
-  test_sentencizer.py c34f9b32483cd1b807ed5f16be1f42d9ec51a623
+  test_sentencizer.py 09dfb1ff0611b934df097215cfaf16ea3fd907c5
  tox.ini 9637687161790477a4cdb1da6553fdbab83f4acd
 # END CONTENT #
 
-BgxTAHmYbLqgmhgRsX/Rs0NiSGCkplLuhXJQ3y64JUFAH3OKeBY7wHuP9Qcq1IfbR4crlryNUECg8wXfRYYAxJ21Mh7U9IwSVprJz3lUvlcR6HdiLLM7lvVF2kYDzZRZeHRuu8wyoEg+zGSrmg+2Xwf2+FrK51rxIOKsSoJOsK47a5xlup2SYaZf95ZK6wj0F1509/4h4fubl4O1Y/aj0Th930I54ojA3+I1/1MkzfGLU5LwLcf7PNqNmYTNeGOZoOJU+rqjRSAJADBUaOSgwE6uknKRqAcd3GXYxP6/VvbLuCKYr0B5O/ve9upeGr7yPs5e+wEfE7FmrvTp8Irzog==
+eqaMGMSoBa+UYQmrMi+3/l/tcc+SojoCnqySX344tYVnsYAAUliQ5PqxJzPvsFgZs3tjR3iWSm8IrxLCtBhPlyuPS/vd6y9hodW4fdllaJxqI2JFmoHqUdTHmrXrAGC6EcngLxTJ66vV4+MksOUb5Jj3vIZGOLivZqhkaIAk8AXWAZ2vwneFqvWYV8/RO4tz72t00z/s5j3qNOE4FRyx1AjdlCFfuL7ekwCzebvbxQP14cHDjrtfhlVZTpXP0NKPbCE/sIMaIEr4FxZbWzaXf/4fy6xNyiOdx/pbKHABSF3Qu0bs4NtcdEVmOaaGoX3oatcTwJsD4ypKg+kQv8VyvA==
