@@ -1,0 +1,31 @@
+projConfig.toml for nlp
+
+[meta]
+    version = '0.1.0'
+
+[project]
+    name = 'nlp'  # distro name
+    package = 'nlp'  # internal name
+    main_lang = 'py'
+    version = '0.0.15'
+    version_date = '2017-10-03'
+    author = 'Jim Dixon'
+    author_email = 'jddixon@gmail.com'
+    copyright = '2016'
+    description = 'some natural language processing (NLP) tools'
+    dev_status = '2'
+    license = 'mit'
+    relpath = 'None'
+    state = 'private'
+    url = 'https://jddixon.github.io/nlp'
+
+[py]
+    packages=['nlp']
+    package_dir = ['src']
+    test_dir = ['tests']
+    py_modules=[]
+    scripts=[]
+    ext_modules=[]
+    distshare=[]
+    requirements=[]
+    test_requirements=[]

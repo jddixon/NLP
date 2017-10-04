@@ -12,7 +12,7 @@ if exists('README.md'):
         long_desc = file.read()
 
 setup(name='nlp',
-      version='0.0.13',
+      version='0.0.15',
       author='Jim Dixon',
       author_email='jddixon@gmail.com',
       long_description=long_desc,
@@ -22,6 +22,7 @@ setup(name='nlp',
       include_package_data=False,
       zip_safe=False,
       scripts=[],
+      ext_modules=[],
       description='some natural language processing (NLP) tools',
       url='https://jddixon.github.io/nlp',
       classifiers=[
