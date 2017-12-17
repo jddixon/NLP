@@ -1,31 +1,29 @@
-projConfig.toml for nlp
-
 [meta]
-    version = '0.1.0'
+version = "0.1.0"
 
 [project]
-    name = 'nlp'  # distro name
-    package = 'nlp'  # internal name
-    main_lang = 'py'
-    version = '0.0.15'
-    version_date = '2017-10-03'
-    author = 'Jim Dixon'
-    author_email = 'jddixon@gmail.com'
-    copyright = '2016'
-    description = 'some natural language processing (NLP) tools'
-    dev_status = '2'
-    license = 'mit'
-    relpath = 'None'
-    state = 'private'
-    url = 'https://jddixon.github.io/nlp'
+name = "nlp"
+package = "nlp"
+main_lang = "py"
+version = "0.0.16"
+version_date = "2017-12-17"
+author = "Jim Dixon"
+author_email = "jddixon@gmail.com"
+description = "some natural language processing (NLP) tools"
+copyright = "2016-2017"
+dev_status = "pre_alpha"
+license = "mit"
+relpath = "py/nlp"
+state = "shared"
+url = "https://jddixon.github.io/nlp"
 
 [py]
-    packages=['nlp']
-    package_dir = ['src']
-    test_dir = ['tests']
-    py_modules=[]
-    scripts=[]
-    ext_modules=[]
-    distshare=[]
-    requirements=[]
-    test_requirements=[]
+packages = [ "nlp",]
+package_dir = [ "src",]
+test_dir = [ "tests",]
+py_modules = []
+scripts = []
+ext_modules = []
+distshare = [ "rnglib",]
+requirements = [ "nltk", "setuptools",]
+test_requirements = []
