@@ -8,21 +8,17 @@ k2lyCIE/V/CDb9eVDYQgYSJYrnQ/JAPST7NbcY8aI+/0l7QVBhLBpmOCvmS6ofvz
 /QIDAQAB
 -----END PUBLIC KEY-----
 nlp
-2017-12-17 21:38:57
+2018-03-03 21:09:44
 # BEGIN CONTENT #
 nlp
- .cache
-  v
-   cache
-    lastfailed bf7f7740f885103c9dd32e0738b572e7064ce296
  .dvcz
-  builds 28885f8b1ac71930ddd2f37bf7e8b14a30d23aa3
-  lastBuildList 985f0b18b11685cdd77e91a05b93f90a9ab852cf
+  builds 2b13297563a9b2cf959d48d9ab021df4beca07c1
+  lastBuildList b748b033d2023c4014444873fdc9f1ad9b4d6669
   projCfg 120debf26f3dea556dbe7a893abaef8bf996b5f6
   projCfg.local 67afb531163d4ddc9f0b836e41398fda582ef083
-  projConfig.toml 6230591f3ea83b0159d0b9a68bf83d95966c2e6f
+  projConfig.toml df7caf21215e0ac3ce3593bb0e10cdc1f884e653
  .gitignore c8129c7133b7a7755cefd3dfc62a9af7bc306aa0
- CHANGES 8a18d576141f459b6a4843eb498898f75c35ce96
+ CHANGES 21c021ffb6b53ca978d5dbbac68551cb126e109c
  LICENSE-MIT.md f9785a1042444732de8b63db3a55ea01b4ccd7bf
  MANIFEST.in 7ecdc5eedf233385e0f99ba4c6e4a42212adb46f
  README.md 2adebfc67777991e4f67eb5ac669f0196c2b91f0
@@ -48,17 +44,17 @@ nlp
   index.md 805a0a174f974bdd904a7117b76cb077348a743c
  installit a1dd12e6f31f54e18822b9f44552defbb5fc9d59
  pylintrc dd234fda24a547a9071f1e4608a3c1f3b7de9aa0
- requirements.txt a7bc5338e6c3d604c76c654dcc251a7d0949edd0
- setup.py 9b9ab13ecaf217feb99fb5819a6f944cea1bfaf5
+ requirements.txt c4efec5b8bdffec9b4ff8308fd4a1a6b19caeb1b
+ setup.py 1bcb4ad2c65cafbe679ecab51ff2794c200ce5c8
  src
   nlp
-   __init__.py 3d2a6440622eae71fd28da252e7d5b431d2c1070
+   __init__.py b1685ec42891921dc9e4ec2dbab17c9a603bd8bd
  styleit ecb63db4f34883c0381515514aa9afff9efac666
  test.all f07731fd5f3c46002b64f55e44a0bec249f2c7be
- test_requirements.txt 28f208d4ac54b1193316b69342f50fbc39255b13
+ test_requirements.txt f657ecb74ab2e5652ad689cb708f8998fac344d9
  tests
   test_sentencizer.py 09dfb1ff0611b934df097215cfaf16ea3fd907c5
- tox.ini 9637687161790477a4cdb1da6553fdbab83f4acd
+ tox.ini 888ce5e666120cc3759e7db4d1b33327e6cf4db4
 # END CONTENT #
 
-KVdumHjTlW2xCLvRvuuS9RoLXyCs5suuTBzKaASqlkH86MVYFyHnMemEetw1teNeINk3a60EYg25jSj5QvxjWwAqe2VgywfmOKidLFUbc1noXWqfe/6KUFOYxzBCjJQf7yUMNOOZB5J74cladeIZBPoPH1BILjrkFe2fld4AemhGJoP4PtfIv87nOyElTqlQ1YKbnd0vAdWzOISNmdoWyxj4WBKQcxWuGMVCgcuru6tB7fbSonmyQWO5qEWHLeUia2iAoXCQUviQJRMOZOuvHepVOHRIMuBaBlP9RPTeKr6HEutxZHEdxM727fBP9ob9nCMsSUerx3sHDGb3OCsDPA==
+S+3dncoU54IJr4FssDKlqeJrgSD88qiGId6rGUWVC6aCqsN4hwq1wFfaA9d0Ei7nPH0yeIMj8/zaNEglYxSBSt3/SBOQcjpvZYRdwq1ynIMd3z4bs2fsfv1F8b5yY8dfr+9nEH3O31uRLcHyjr4e8NRDcQD3bbJ23tVSel2oWOPBpATN1TM3XQV2oZtbvGyvQ9wtbHJZpWBlGQA86Lh/A3FtB4yD0xf1es5rsx4TvTtsuxpucUb3rcZ0PFV7dsX1+vMrkU7f2mXwCDtGegSdsiGiPACoK/m9WpR5DerVWO9BjdhzECw2k4NzTQqHj1z/9BDXvO6bfbJx403rkZvAGg==
